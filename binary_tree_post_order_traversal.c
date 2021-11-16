@@ -4,8 +4,8 @@ typedef struct node Tree_Node;
 struct node
 {
     int root;
-    int *left_node;
-    int *right_node;
+    Tree_Node *left_node;
+    Tree_Node *right_node;
 };
 
 void post_order(Tree_Node *root);
